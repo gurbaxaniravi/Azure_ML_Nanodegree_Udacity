@@ -54,7 +54,7 @@ Some high level screenshots can be found below:
 For the same classification problem, I submitted an AutoML run as well for comparison. It ran multiple algorithms and performed data cleaning operations with minimal programmmer inputs, and produced best model as "VotingEnsemble" with maximum accuracy of "91.79". Also, I performed AutoML using cross validations and training and test set and obtained similar accuracy.
 
 ## Pipeline comparison
-Though we only get a difference of about 1% in accuracy between manually trained model, and model produced by AutoML, AutoML gives us a better accuracy of 91.79% and it took comparatively the same time to run multiple models as the LogisticRegression pipeline took to come up with best hyperparameters.
+Though we only get a difference of less than 1% in accuracy between manually trained model, and model produced by AutoML, AutoML gives us a better accuracy of 91.64% and it took comparatively the same time to run multiple models as the LogisticRegression pipeline took to come up with best hyperparameters.
 
 Also, AutoML performed all the data cleaning and preprocessing steps automatically, which saved a lot of programmers time. The saved time can be utilised to work on actual buiseness problem than spending on cleaning data and other mundane tasks.
 
