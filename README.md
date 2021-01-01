@@ -24,8 +24,7 @@ What we see here is we have accuracy of 91.16% when the value of C is 11.9 and m
 Used AutoML to find the best algorithm and got accuracy of 91.64 for VotingEnsemble.
 Though marginally better, AutoML achieved a better accuracy than the manually executed pipeline Logistic Regression. Below is the pipeline I ran for this project.
 
-
-![GitHub Logo](/images/Step-10-Results.png)
+![GitHub Logo](/images/Step-12-AutoMl-Result.png)
 
 
 ## Scikit-learn Pipeline
