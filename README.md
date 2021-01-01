@@ -21,10 +21,10 @@ What we see here is we have accuracy of 91.16% when the value of C is 11.9 and m
 
 **Task 2: Run Using AutoML**
 
-Used AutoML to find the best algorithm and got accuracy of 91.79 for VotingEnsemble.
+Used AutoML to find the best algorithm and got accuracy of 91.64 for VotingEnsemble.
 Though marginally better, AutoML achieved a better accuracy than the manually executed pipeline Logistic Regression. Below is the pipeline I ran for this project.
 
-![GitHub Logo](/images/Step-9-Results.png)
+
 ![GitHub Logo](/images/Step-10-Results.png)
 
 
@@ -37,7 +37,6 @@ Next I define the parameter space for 2 paramerters of LogisticRegression:- 'C' 
 I am using RandomParameterSampling as it gives almost the same performance as Grid sampling, without taking as much time and compute as Grid sampling takes. It also supports discrete and continuous hyperparameters and early termination of low-performance runs
 I have used BanditPolicy as early termination policy to terminate the poorly performing runs. This helps in improving computational efficiancy.
 The primary metrics to maximise during training in the pipeline is deficned as Accuracy.
-This pipeline was submitted and I achived a maximum accuracy of 90.96 for hyper parameter values of "C" - "5.78" and "max_iter" - "50".
 
 Some high level screenshots can be found below:
 
